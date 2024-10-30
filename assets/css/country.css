@@ -1,0 +1,20 @@
+.select2-container .select2-selection--single {
+    height: 48px;
+    border: 1px solid #e7e9ed;
+    padding-top: 16px;
+    /* padding: 14px; */
+    background-color: #F8F8F8;
+    font-size: 16px;
+    line-height: 1.15em;
+    border-radius: 3px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    transform: translate(-5px, 10px);
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.15em;
+    padding-left: 0;
+    text-transform: capitalize;
+}

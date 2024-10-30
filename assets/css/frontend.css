@@ -1,0 +1,78 @@
+.cf7vb-buildr-frontend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cf7vb-buildr-frontend .cf7vb-buildr-control.w-half {
+    flex: 0 0 calc(50% - 10px);
+}
+
+.cf7vb-buildr-control {
+    flex-grow: 1;
+    flex: 0 0 100%;
+}
+
+.cf7vb-buildr-frontend .cf7vb-buildr-control span.wpcf7-list-item {
+    margin-left: 0;
+    display: block;
+}
+
+.cf7vb-buildr-control input[type=checkbox],
+.cf7vb-buildr-control input[type=radio] {
+    width: fit-content;
+    margin-right: 5px;
+}
+
+
+.cf7vb-buildr-frontend label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.cf7vb-buildr-frontend input,
+.cf7vb-buildr-frontend select {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.cf7vb-buildr-frontend .cf7vb-buildr-control p,
+.cf7vb-buildr-frontend .cf7vb-buildr-actions p {
+    margin: 0;
+}
+
+.cf7vb-buildr-frontend span.wpcf7-form-control-wrap {
+    display: block;
+    max-width: 100%;
+}
+
+.cf7vb-buildr-frontend textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.cf7vb-buildr-frontend * {
+    box-sizing: border-box;
+}
+
+.cf7vb-buildr-frontend input[type=submit] {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.cf7vb-buildr-frontend .cf7vb-buildr-actions.w-full {
+    width: 100%;
+}
+
+.cf7vb-buildr-frontend .cf7vb-buildr-actions.w-half {
+    width: 50%;
+}
+
+
+
+.cf7vb-buildr-frontend {
+    padding: 15px;
+}

@@ -1,0 +1,138 @@
+
+.redirect-wrap .cf7vb-redirect-enable label {
+    color: #080E13;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.redirect-wrap .cf7vb_default_redirect_wraper label {
+    color: #091318;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.redirect-wrap .cf7vb_redirect_to_url input {
+    border-radius: 8px;
+    border: 1px solid #CBD2D9;
+    background: #FFF;
+    width: 330px;
+    height: 40px;
+    display: flex;
+    padding: 10px 12px 10px 12px;
+    align-items: center;
+    flex-shrink: 0;
+    color: #080E13;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+.redirect-wrap .cf7vb_redirect_to_url input:focus {
+  border: 1px solid #CBD2D9;
+  outline: #CBD2D9;
+  box-shadow: none;
+}
+
+.redirect-wrap .cf7vb_redirect_to_url label,
+.redirect-wrap .cf7vb_redirect_to_page label {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.redirect-wrap .cf7vb_redirect_to_url input { 
+    border-radius: 8px;
+    border: 1px solid #CBD2D9;
+    width: 330px;
+    height: 40px;
+    display: flex;
+    padding: 10px 12px 10px 12px;
+    color: #091318;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+.cf7vb_redirect_to_page .nice-select {
+    border-radius: 8px;
+    border: 1px solid #CBD2D9;
+    width: 330px;
+    height: 40px;
+    display: flex;
+    padding: 7px 12px 7px 12px;
+    color: #080E13;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    box-shadow: none;
+    outline: none;
+} 
+
+.cf7vb_redirect_to_page .nice-select .list {
+    width: 100%;
+}
+
+
+.redirect-wrap input[type=radio] {
+    width: 18px;
+    height: 18px;
+    border-color: #CBD2D9;
+}
+
+.redirect-wrap input[type=radio]:checked {
+    border-color: #3767FB;
+}
+
+.redirect-wrap input[type=radio]:checked::before {
+    width: 12px;
+    height: 12px;
+    background-color: #3767FB;
+    margin: 2px;
+}
+#cf7vb-redirect-panel .config-error {
+    margin-bottom: 0px !IMPORTANT;
+}
+
+p.cf7vb-new-tab {
+    margin-top:  20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.cf7vb-submit .button.button-primary {
+    background: #3767FB;
+    border-color: #3767FB;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 150% */
+    outline: none;
+    box-shadow: none;
+    margin-top: 30px;
+}

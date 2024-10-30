@@ -1,0 +1,28 @@
+#cf7vb-new-entry {
+    display: none
+}
+.cf7vb-conditional-fields .cf7vb-field {
+	height: 28px !important;
+    margin-right: 5px;
+}
+.cf7vb-conditional-fields .cf7vb-remove {
+	border: 1px solid #a00;
+	margin-left: 10px;
+    background-color: #a00
+}
+.cf7vb-conditional-fields .cf7vb-remove:hover {
+    color: #a00;
+	background-color: #fff;
+    border-color: #a00;
+}
+.cf7vb-conditional-fields .cf7vb-remove:focus {
+    color: #a00;
+	background-color: #fff;
+    border-color: #a00;
+}
+#cf7vb-new-cf {
+	margin-top: 10px;
+}
+.cf7vb-conditions-wraper {
+	margin-bottom: 5px;
+}
